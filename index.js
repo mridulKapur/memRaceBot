@@ -4,3 +4,5 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log("bot set go!!");
 })
+
+client.login(process.env.TOKEN)
