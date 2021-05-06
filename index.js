@@ -4,4 +4,3 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log("bot set go!!");
 })
-
