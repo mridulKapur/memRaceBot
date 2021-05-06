@@ -1,3 +1,6 @@
+const Discord = require("discord.js")
+const client = new Discord.Client()
+
 const prefix = "--"
 const height = 10;
 const length = 10;
